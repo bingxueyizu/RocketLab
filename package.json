@@ -1,0 +1,46 @@
+{
+  "name": "rocketlab",
+  "version": "1.0.0",
+  "type": "module",
+  "private": true,
+  "description": "Chrome 扩展：按分组管理常用项目链接，支持拖拽排序与导入导出（Manifest V3 + Vue 3 + Vite）",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bingxueyizu/RocketLab.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bingxueyizu/RocketLab/issues"
+  },
+  "homepage": "https://github.com/bingxueyizu/RocketLab#readme",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "typecheck": "vue-tsc --noEmit",
+    "preview": "vite preview --port 4173"
+  },
+  "keywords": [
+    "chrome-extension",
+    "manifest-v3",
+    "vue",
+    "vite",
+    "typescript",
+    "bookmarks",
+    "navigation"
+  ],
+  "author": "bingxueyizu",
+  "license": "MIT",
+  "dependencies": {
+    "sortablejs": "^1.15.7",
+    "vue": "^3.5.30",
+    "vue-draggable-next": "^2.3.0"
+  },
+  "devDependencies": {
+    "@types/chrome": "^0.1.38",
+    "@types/node": "^25.5.0",
+    "@types/sortablejs": "^1.15.9",
+    "@vitejs/plugin-vue": "^5.2.4",
+    "typescript": "^5.9.3",
+    "vite": "^6.4.1",
+    "vue-tsc": "^3.2.5"
+  }
+}
