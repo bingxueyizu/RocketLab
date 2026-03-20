@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "RocketLab 目录导航",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "按分组管理常用项目链接（GitLab/Jenkins/Nexus 等），支持拖拽排序与导入导出。",
   "action": {
     "default_title": "RocketLab 导航",
@@ -16,6 +16,7 @@
       "description": "打开 RocketLab 导航"
     }
   },
-  "permissions": ["storage"]
+  "permissions": [
+    "storage"
+  ]
 }
-

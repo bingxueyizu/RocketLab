@@ -44,6 +44,7 @@ npm run dev
 
 - `npm run typecheck` — TypeScript 检查  
 - `npm run preview` — 本地预览构建后的静态资源（端口 4173）
+- `npm run pack` — 构建并在仓库根目录生成 **`RocketLab-v{版本}.zip`**（版本取自 `package.json`，便于上传到 GitHub Releases）
 
 ## 许可证
 

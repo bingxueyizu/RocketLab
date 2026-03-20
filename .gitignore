@@ -4,6 +4,9 @@ node_modules/
 # Build output
 dist/
 
+# Local release zip (upload via GitHub Releases, do not commit)
+RocketLab-v*.zip
+
 # Logs & local
 *.log
 *.local
